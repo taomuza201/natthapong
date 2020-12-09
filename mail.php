@@ -13,4 +13,7 @@ $message = $_POST['message'];
 
 // send email
 mail($email,$subject ,$message  );
+
+header( "location: https://taomuza201.github.io/natthapong.github.io/index#contact" );
+exit(0);
 ?>
