@@ -12,5 +12,5 @@ $message = $_POST['message'];
 // $msg = wordwrap($msg,70);
 
 // send email
-mail($email,$subject ,$messag);
+mail($email,$subject ,$message  );
 ?>
