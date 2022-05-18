@@ -403,6 +403,11 @@
                 background-color: transparent;
             }
 
+            .is_img{
+                    visibility: hidden;
+                    position: absolute;
+                }
+
             .lm-animated-bg {
                 position: absolute;
                 width: auto;
@@ -469,6 +474,11 @@
             @media only screen and (max-width: 1024px) {
                 .menu-toggle {
                     background-color: #04b4e0;
+                }
+
+                .is_img{
+                    visibility: visible;
+                    position: relative;
                 }
             }
 
@@ -724,16 +734,16 @@
                 <header id="site_header" class="header mobile-menu-hide">
                     <div class="header-content">
                         <div class="header-photo">
-                            <a href="https://lmpixels.com/wp/breezycv-wp-lin/demo2-dark/">
+                            
                                 <img src="img/tao.jpg" alt="image">
-                            </a>
+                        
                         </div>
 
                         <div class="header-titles">
-                            <a href="https://lmpixels.com/wp/breezycv-wp-lin/demo2-dark/">
+                            
                                 <h2>Natthapong Kumpun
                                 </h2>
-                            </a>
+                            
                             <!-- <h4>Web Designer</h4> -->
                         </div>
                     </div>
@@ -913,6 +923,18 @@
                                                                                     <div class="row">
                                                                                         <div class="col-sm-12 col-md-12 col-lg-12">
                                                                                             <div class="title-block">
+
+
+                                                                                                
+
+                                                                                                <div class="header-photo is_img">
+                                                                                                    
+                                                                                                        <img src="img/tao.jpg" alt="image" class="rounded-circle">
+                                                                                                
+                                                                                                </div>
+                                                                                                
+
+                                                                                                
                                                                                                 <h2>Natthapong Kumpun</h2>
                                                                                                 <div class="owl-carousel text-rotation">
 
